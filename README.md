@@ -127,7 +127,7 @@ The returned tuple contains a modified matrix which contains CSI amplitudes in d
 Once we have CSI amplitude data, we can also apply filters for preprocessing (as seen in many publications making use of CSI).
 
 ```python
-from CSIKit.filters import lowpass, hampel, running_mean
+from CSIKit.reader.filters import lowpass, hampel, running_mean
 from CSIKit.reader import get_reader
 from CSIKit.util import csitools
 
